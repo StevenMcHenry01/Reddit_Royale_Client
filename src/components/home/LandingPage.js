@@ -26,7 +26,7 @@ const LandingPage = () => {
         <a
           target='_blank'
           rel='noopener noreferrer'
-          href='https://github.com/StevenMcHenry01/redditroyale'
+          href='https://github.com/StevenMcHenry01/Reddit_Royale_Client'
           style={{textDecoration: 'none', color: '#0f0f0f'}}
         >
           View On Github

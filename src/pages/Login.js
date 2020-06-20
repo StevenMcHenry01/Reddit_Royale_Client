@@ -31,7 +31,7 @@ const Login = ({ location }) => {
         >
           <Link
             style={{ textDecoration: 'none', color: 'white' }}
-            href='http://localhost:8080/api/auth/reddit'
+            href={`${process.env.REACT_APP_BACKEND_URL}/api/auth/reddit`}
           >
             Login with reddit
           </Link>
