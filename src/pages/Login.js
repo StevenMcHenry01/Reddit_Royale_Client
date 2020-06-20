@@ -29,12 +29,12 @@ const Login = ({ location }) => {
           color='primary'
           style={{ fontSize: '1rem' }}
         >
-          <a
+          <Link
             style={{ textDecoration: 'none', color: 'white', fontFamily: 'inherit' }}
-            href={`${process.env.REACT_APP_BACKEND_URL}/api/auth/reddit`}
+            href='/reddit_login'
           >
             Login with reddit
-          </a>
+          </Link>
         </Button>
       </StyledCard>
     </PageWrapper>
