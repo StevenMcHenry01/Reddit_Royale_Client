@@ -1,7 +1,7 @@
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
   from = "/reddit_login"
-  to = "http://redditroyalenodeserver-env.eba-czhqveiw.us-east-1.elasticbeanstalk.com/api/auth/reddit"
+  to = "https://reddit-royale.herokuapp.com/api/auth/reddit"
   status = 200
 [[redirects]]
   from = "/*"
