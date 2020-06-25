@@ -1,7 +1,7 @@
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
   from = "/reddit_login"
-  to = "https://reddit-royale.herokuapp.com/api/auth/reddit"
+  to = "https://www.reddit-royale-server.xyz/api/auth/reddit/callback"
   status = 200
 [[redirects]]
   from = "/*"
