@@ -17,11 +17,16 @@ yarn install
 ```
 
 2. Make sure [the server](https://github.com/StevenMcHenry01/Reddit_Royale_Server) is running.
+3. Create a .env file with your backend running server location under:
+```
+REACT_APP_BACKEND_URL=''
+```
+4. run via CRE
+```
+yarn start
+```
 
 ## Deployment
-
-## Built With
-
-## Authors
+I deployed using netlify and left the netlify.toml file in the repo so you could as well
 
 
