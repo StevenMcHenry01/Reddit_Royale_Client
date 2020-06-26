@@ -7,12 +7,16 @@ You can view the backend code for this site [Here](https://github.com/StevenMcHe
 This is a simple web app where one can use their reddit profile to login and then pit various subreddits against one another.
 
 ## Installing:
-What you need to do
+1. Install all dependencies
 ```
-/api
-/api/auth
-/api/admin
+npm install
 ```
+or
+```
+yarn install
+```
+
+2. Make sure [the server](https://github.com/StevenMcHenry01/Reddit_Royale_Server) is running.
 
 ## Deployment
 
